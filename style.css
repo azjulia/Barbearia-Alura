@@ -1,0 +1,76 @@
+body {
+    background: #CCCCCC
+}
+
+#banner {
+    /* # é utilizado para referenciar ao id. Só é possível usar um id para cada coisa*/
+    width: 100%;
+    /* é a largura */
+}
+
+.principal {
+    /* . é utilizado para referenciar a classe*/
+    /* A class serve para replicarmos a aplicação do nosso CSS, sem precisar copiar e colá-lo em vários elementos
+    é possível usar a mesma classe em várias coisas */
+
+    background: #FFFFFF;
+    padding: 30%;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    /* Como já estamos no arquivo de CSS, não é necessário colocar style="" */
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size:20px;
+}
+
+em strong {
+    color: red;
+    /* nesse caso, irá modificar somente os strongs que estiverem dentro da tag em*/
+}
+
+/* Como representar cores no CSS: Podemos representar a cor vermelha com o nome red, o hexadecimal #FF0000 e o RGB rgb(255,0,0)/*
+
+/* eu coloco RGB( , , ), separando as cores por vírgula. Antes da primeira vírgula vem o vermelho. Então, se eu quiser 
+representar o branco, coloco RGB(255, 255, 255). Se eu quiser representar só o azul, RGB(0, 0, 255).*/
+
+/*  (background) mexe na cor de fundo
+    (color) Na cor do texto */
+
+/*  border: cria uma borda
+    padding: cria uma "borda" entre o conteúdo e a borda oficial ( espaçamento interno do elemento)
+    margin: cria uma "borda" entre a borda oficial e o navegador ( espaçamento externo do elemento)*/
+
+/*  UI = User Interface
+    UX = User Experience*/
+
+.itens {
+    font-style: italic
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top ;
+    /* é preciso utilizar o comando acim pois, o padrão é ser alinhado pela linha de baixo */
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
